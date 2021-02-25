@@ -1,0 +1,236 @@
+body{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container div{
+    padding: 10px;
+}
+
+
+
+
+
+
+.box-4{
+    border:none;
+    border-radius: 5px;
+    background: #1a73e8;
+}
+.box-4:hover{
+    background: #2b7de9;
+}
+#be-box{
+    color: white;
+
+}
+#be-box:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    height: 400px;
+    position: relative;
+
+}
+
+.logo-con{
+    width: min-content;
+    height: min-content;
+    display: block;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    margin-left: 50%;
+    margin-top: 23%;
+}
+
+.form-group{
+    text-align: center;
+
+}
+
+
+.main-form{
+    text-align: center;
+
+}
+.middle-form{
+    display: inline-block;
+    width: 40%;
+    height: 150px;
+    /*
+    border: 1px red solid;
+    */
+
+}
+
+.searchbar-border{
+    display: flex;
+
+    border: 2px solid #dfe1e5;
+    border-radius: 24px;
+    height: 45px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0;
+
+    line-height: 45px;
+}
+.searchbar-border:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33 ,36, 0.28);
+    border-color: rgba(223,225,229,0);
+}
+.searchbar-border:focus{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33 ,36, 0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.searchbar-inside{
+    display: inline-block;
+    /*
+    border: 3px solid green;
+    */
+    width: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+
+}
+input{
+    display: inline-block;
+    width: 100%;
+    border-style: none;
+}
+input:focus{
+    border-style: none;
+    outline: none;
+
+}
+
+.glass img{
+    margin-left:10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.keyboard a{
+    display: inline-block;
+    margin-top: 6px;
+
+}
+.mic a{
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+.buttons{
+    padding-top: 20px;
+}
+
+#center{
+    text-align: -webkit-center;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    max-width: 30%;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    -webkit-writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+
+}
+input[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+input[type="submit" i]{
+    appearance: auto;
+    align-items: flex-start;
+    white-space: pre;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
